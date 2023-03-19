@@ -1077,9 +1077,9 @@ section .container {
 
 
 /*--------------------------------------------------------------
-# counter
+# credits
 --------------------------------------------------------------*/
-.counter {
+.credits {
   position: fixed;
   right: 0;
   left: 0;
@@ -1092,18 +1092,18 @@ section .container {
 }
 
 @media (max-width: 992px) {
-  .counter {
+  .credits {
     text-align: center;
     padding: 10px;
     background: rgba(0, 0, 0, 0.8);
   }
 }
 
-.counter a {
+.credits a {
   color: #18d26e;
   transition: 0.3s;
 }
 
-.counter a:hover {
+.credits a:hover {
   color: #fff;
 }
