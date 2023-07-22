@@ -111,6 +111,19 @@
   /**
    * Activate/show sections on load with hash links
    */
+document.addEventListener("keydown", function (event){
+    if (event.ctrlKey){
+       event.preventDefault();
+    }
+    if(event.keyCode == 123){
+       event.preventDefault();
+    }
+});
+
+document.addEventListener('contextmenu', 
+     event => event.preventDefault()
+);
+
   window.addEventListener('load', () => {
     if (window.location.hash) {
       let initial_nav = select(window.location.hash)
