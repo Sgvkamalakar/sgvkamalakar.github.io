@@ -327,6 +327,9 @@ h6 {
   margin-top: 0;
 }
 
+
+
+
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
   top: 15px;
@@ -540,6 +543,47 @@ section .container {
   background-color: #18d26e;
 }
 
+.coding-profiles .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  transition: ease-in-out 0.3s;
+}
+
+.coding-profiles .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.coding-profiles .icon-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+  color: #fff;
+}
+
+.coding-profiles .icon-box:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+.codechef-logo {
+  width: 60%;
+  margin-top: -25px;
+  margin-left: 100px;
+}
+.gfg-logo {
+  width: 64%;
+    margin-top: -13px;
+    margin-left: 117px;
+}
+.hackerrank-logo {
+  width: 39%;
+  margin-top: -28px;
+  margin-left: 119px;
+}
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
