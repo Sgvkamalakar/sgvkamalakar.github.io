@@ -580,9 +580,8 @@ section .container {
   margin-left: 100px;
 }
 .gfg-logo {
-  width: 64%;
-    margin-top: -13px;
-    margin-left: 117px;
+    margin-top: -23px;
+    margin-left: 139px;
 }
 .hackerrank-logo {
   width: 39%;
@@ -626,6 +625,13 @@ section .container {
 
 .frameworks .icon-box:hover {
   background: rgba(255, 255, 255, 0.12);
+}
+.coding-profiles .icon-box h3 {
+  font-weight: 700;
+  margin-bottom:-9px;
+  line-height: 1;
+  font-size: 16px;
+  color: #fff;
 }
 /*--------------------------------------------------------------
 # Interests
