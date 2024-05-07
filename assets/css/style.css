@@ -14,7 +14,7 @@ body {
   background-color: #040404;
   color: #fff;
   position: relative;
-  background: transparent;
+  background: none;
 }
 .icon-list {
   list-style: none;
@@ -120,7 +120,7 @@ h6 {
   color: rgba(255, 255, 255, 0.8);
 }
 
-#header h2 span {
+#header h3 span{
   color: #fff;
   border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
@@ -136,13 +136,22 @@ h6 {
   display: flex;
 }
 
+img.img-fluid {
+  border-radius: 50px;
+}
+
+em1{
+  white-space: nowrap;
+}
+
 #header .social-links a {
   font-size: 16px;
+  margin-top:-20px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color: black;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -175,6 +184,7 @@ h6 {
   }
 }
 
+
 /* Header Top */
 #header.header-top {
   height: 80px;
@@ -182,7 +192,8 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: none;
+  position: relative;
 }
 
 #header.header-top .social-links,
@@ -249,8 +260,8 @@ h6 {
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+  color: black;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -273,6 +284,9 @@ h6 {
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
+}
+.navbar{
+  box-shadow:none;
 }
 
 .navbar a:hover:before,
@@ -321,7 +335,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: transparent;
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
