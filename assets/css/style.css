@@ -234,6 +234,7 @@ em1{
 .navbar {
   padding: 0;
   margin-top: 35px;
+  background: transparent;
 }
 
 .navbar ul {
